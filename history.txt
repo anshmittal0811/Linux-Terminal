@@ -1,0 +1,6 @@
+history 
+ls 
+pwd 
+mkdir at 
+clear 
+exit 
