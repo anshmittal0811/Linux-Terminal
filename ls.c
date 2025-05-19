@@ -6,6 +6,7 @@
 #define RED "\x1b[31m"
 #define YELLOW  "\x1b[33m"
 #define RESET   "\x1b[0m"
+
 static int comparator(const void* str1, const void* str2) {
     char *str_1 = *(char**)str1;
     char *str_2 = *(char**)str2;
@@ -27,7 +28,6 @@ static int comparator(const void* str1, const void* str2) {
         return 1;
     }
     else return 0;
-
 }
 int main(int argc, char *argv[])
 {
