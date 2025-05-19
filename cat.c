@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int  main(int argc, char *argv[100000])
+int main(int argc, char *argv[100000])
 {
     FILE *fptr;
     char line[100];
@@ -52,6 +52,5 @@ int  main(int argc, char *argv[100000])
                 }
             }
         }
-
     }
 }
