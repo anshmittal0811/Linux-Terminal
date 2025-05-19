@@ -3,6 +3,7 @@
 #include <time.h>
 #define RED "\x1b[31m"
 #define RESET "\x1b[0m"
+
 int main(int argc, char *argv[100]) {
     time_t rawtime;
     struct tm *info;
@@ -33,4 +34,3 @@ int main(int argc, char *argv[100]) {
     }
     return (0);
 }
-
