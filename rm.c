@@ -2,7 +2,8 @@
 #include <string.h>
 #define RED "\x1b[31m"
 #define RESET "\x1b[0m"
-int  main(int argc, char *argv[100000])
+
+int main(int argc, char *argv[100000])
 {
     char arguments[1000][1000];
     char *arg = strtok(argv[1]," \n");
