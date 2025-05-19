@@ -9,6 +9,7 @@
 #define GREEN "\x1b[32m"
 #define CYAN "\x1b[36m"
 #define RESET "\x1b[0m"
+
 void history_getter(char *path)
 {
     FILE *history;
@@ -392,4 +393,3 @@ int main()
     printf(BLUE "=====================================================================\n" RESET);
     return 0;
 }
-
